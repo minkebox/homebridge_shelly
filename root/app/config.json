@@ -1,0 +1,21 @@
+{
+  "bridge": {
+    "name": "Shelly",
+    "username": "{{BRIDGE_USERNAME}}",
+    "port": 51826,
+    "pin": "{{BRIDGE_PIN}}"
+  },
+  "description": "",
+  "accessories": [
+  ],
+  "platforms": [
+    {
+      "platform": "Shelly",
+      "name": "Shelly",
+      "admin": {
+        "enabled": true,
+        "port": 80
+      }
+    }
+  ]
+}
